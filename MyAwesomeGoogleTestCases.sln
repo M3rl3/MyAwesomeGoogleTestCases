@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyAwesomeGoogleTestCases", "MyAwesomeGoogleTestCases\MyAwesomeGoogleTestCases.vcxproj", "{FE25A9A4-7473-4429-A0E3-35112FBDA83F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4D6A07EA-856D-4A87-A254-6A3397B2A9A0} = {4D6A07EA-856D-4A87-A254-6A3397B2A9A0}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlackBoxTestCases", "BlackBoxTestCases\BlackBoxTestCases.vcxproj", "{4D6A07EA-856D-4A87-A254-6A3397B2A9A0}"
 EndProject
